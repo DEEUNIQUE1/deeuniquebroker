@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dee Unique Crypto Brokers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+  <div class="logo">DEE<span>UNIQUE</span></div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Next-Generation Crypto Brokerage</h1>
+    <p>Secure, transparent and professional crypto trading assistance</p>
+    <button onclick="scrollToContact()">Request Broker</button>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <h2>Why Choose Us</h2>
+  <div class="cards">
+    <div class="glass">🔐 Secure Transactions</div>
+    <div class="glass">📊 Expert Crypto Brokers</div>
+    <div class="glass">⚡ Fast Trade Execution</div>
+    <div class="glass">🌍 Global Market Access</div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About Dee Unique</h2>
+  <p>
+    Dee unique Brokers connects clients with professional crypto brokers
+    for Bitcoin, Ethereum, and stablecoin trading. We prioritize security,
+    compliance, and transparency.
+  </p>
+
+   <div class="social-icons">
+    <a href="https://wa.me/+2349030539782" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://www.instagram.com/danney.sammy" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://www.facebook.com/danney.sammey" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact a Crypto Broker</h2>
+
+  <form id="contactForm" class="form-card">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <textarea name="message" placeholder="Describe your crypto needs" required></textarea>
+    <button type="submit">Send Request</button>
+  </form>
+
+  <p id="formMessage"></p>
+</section>
+
+<footer>
+  <p>© 2026 Dee Unique Crypto Brokers</p>
+  <small>Crypto assets are volatile and involve risk.</small>
+</footer>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+(function(){
+  emailjs.init("1o-wu2iziPvAgvclu");
+})();
+</script>
+
+<script src="index.js"></script>
+</body>
+</html>
